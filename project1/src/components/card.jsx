@@ -2,22 +2,22 @@ import cardimg from "../assets/cardimg.png"
 export default function Card(){
     return (
         <div className="bg-bg2 w-1/2 py-11 px-20 flex justify-center">
-            <div>
+            <div className="w-1/2">
                 {/* card header */}
                 <div>
                     <img src={cardimg} alt="" />
                 </div>
                 {/* card content */}
-                <div className="bg-bg3">
+                <div className="bg-bg3 py-6">
                     <div>
-                        <div>
-                            <h1>Laura Smith</h1>
-                            <h3>Frontend Developer</h3>
-                            <h4>Angularisoverrated@gmail.com</h4>
+                        <div className="flex flex-col text-center text-white">
+                            <h1 className="text-xl font-bold">Laura Smith</h1>
+                            <h1 className="text-cardText1 text-xs">Frontend Developer</h1>
+                            <h1 className="text-[10px]">Angularisoverrated@gmail.com</h1>
                         </div>
-                        <div>
-                            <button>Email</button>
-                            <button>Linkedin</button>
+                        <div className="flex text-sm py-6 justify-center space-x-3 font-medium">
+                            <button className="w-28 rounded-md py-2 px-3 bg-white">Email</button>
+                            <button className="w-28 rounded-md py-2 px-3 bg-cardbg1">Linkedin</button>
                         </div>
                     </div>
                     <div>
