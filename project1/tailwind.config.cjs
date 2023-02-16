@@ -12,6 +12,7 @@ module.exports = {
         bg3: "#1A1B21",
         cardText1: "#F3BF99",
         cardbg1: "#5093E2",
+        footerbg: "#161619",
       }
     },
   },
