@@ -7,7 +7,7 @@ export default function HeroSection(){
             </div>
             <div className="mt-4 p-4">
                 <h1 className="font-semibold text-4xl">Online Experience</h1>
-                <p className="font-light mt-4 max-w-[320px] leading-5">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+                <p className="font-light mt-4 max-w-[420px] leading-5">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
             </div>
         </div>
     )

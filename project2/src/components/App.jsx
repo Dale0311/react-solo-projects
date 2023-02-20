@@ -1,10 +1,14 @@
 import Nav from "./nav"
-import Main from "./main"
+import Hero from "./hero"
+import Card from "./card"
+import Section2 from "./section-two"
 export default function App() {
   return (
     <div className="container mx-auto">
       <Nav />
-      <Main />
+      <Hero />
+      <Card />
+      <Section2 />
     </div>
   )
-}1
+}
